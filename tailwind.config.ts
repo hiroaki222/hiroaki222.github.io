@@ -19,4 +19,14 @@ export default {
     },
   },
   plugins: [require('daisyui')],
+  daisyui: {
+    themes: ["wireframe", "black"],
+    darkTheme: "dark",
+    base: true,
+    styled: true,
+    utils: true,
+    prefix: "",
+    logs: true,
+    themeRoot: ":root",
+  },
 } satisfies Config;

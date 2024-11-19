@@ -35,6 +35,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         {children}
         <ScrollRestoration />
         <Scripts />
+        <script src="https://cdn.jsdelivr.net/npm/theme-change@2.0.2/index.js"></script>
       </body>
     </html>
   );
